@@ -10,4 +10,6 @@ jobs:
     steps:
       - name: "Mi primer actions"
         run: echo "Ejecutando actions"
-
+      - name:  "Mostarando variables por defecto"
+        run: |
+          echo "Evento: ${{toJSON(github.event)}}"}"
