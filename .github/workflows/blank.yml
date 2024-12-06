@@ -1,0 +1,13 @@
+name: cconta_pub
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Mi primer actions"
+      - run: echo "Ejecutando actions"
+
